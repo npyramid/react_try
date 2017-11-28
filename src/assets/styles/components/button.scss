@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 9px 14px 10px;
+  border: none;
+  background-color: $blue;
+  border-radius: 4px;
+  outline: none;
+  color: $white;
+  font-size: 12px;
+
+  &:hover {
+    opacity: .8;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,20 @@
+.icon {
+  width: 18px;
+  height: 18px;
+
+  &--open {
+    background-image: url(/icons/maximize.svg);
+  }
+
+  &--close {
+    width: 15px;
+    height: 14px;
+    background-image: url(/icons/close.svg);
+  }
+
+  &--message {
+    width: 16px;
+    height: 16px;
+    background-image: url(/icons/mingle-share.svg);
+  }
+}

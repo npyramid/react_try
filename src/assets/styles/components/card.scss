@@ -1,0 +1,67 @@
+.card {
+  padding: 30px 40px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+  transition: all .4s;
+  position: relative;
+
+  &__wrapper {
+    width: 100%;
+    position: relative;
+    background-color: inherit;
+  }
+
+  &:hover {
+    background-color: $lighter-gray;
+    border: 1px solid $another-gray;
+    border-left: none;
+    border-right: none;
+  }
+
+  &--static {
+    border: none;
+  }
+
+  &--static:hover {
+    background-color: transparent;
+    border: none;
+  }
+
+  &__title {
+    color: $black;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  &__amount {
+    font-size: 24px;
+  }
+
+  &__title + &__amount {
+    margin-top: 13px;
+  }
+
+  &__text {
+    color: $deep-gray;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  &__amount + &__text {
+    margin-top: 15px;
+  }
+
+  &__icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  & + .transactions__paragraph {
+    margin-top: 61px;
+  }
+}

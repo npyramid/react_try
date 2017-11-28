@@ -1,0 +1,19 @@
+.operation {
+  padding: 13px 40px;
+  font-size: 14px;
+  line-height: 1.43;
+  border: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    top: 13px;
+    right: 39px;
+  }
+
+  &--raw {
+    padding: 0;
+  }
+}

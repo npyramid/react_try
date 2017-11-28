@@ -1,0 +1,52 @@
+.button-group {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  height: 47px;
+
+  &--centered {
+    justify-content: center;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 50%;
+    max-width: 171px;
+    font-size: 20px;
+    color: $blue;
+    border: 1px solid $blue;
+    border-left: none;
+    border-right: none;
+    background-color: $white;
+    transition: all .4s;
+    text-decoration: none;
+  }
+
+  &__item--active {
+    color: $white;
+    background-color: $blue;
+  }
+
+  &__item:hover {
+    opacity: .8;
+    cursor: pointer;
+  }
+
+  &__item:first-of-type {
+    border-radius: 4px 0 0 4px;
+    border-left: 1px solid $blue;
+  }
+
+  &__item:last-of-type {
+    border-radius: 0 4px 4px 0;
+    border-right: 1px solid $blue;
+  }
+
+  & + .possessions {
+    margin-top: 43px;
+  }
+}

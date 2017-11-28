@@ -1,0 +1,19 @@
+.transactions {
+  & > .card {
+    padding-top: 75px;
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+    color: $deep-gray;
+    padding-left: 40px;
+  }
+
+  &__list .operation:nth-child(even) {
+    background-color: $lighter-gray;
+    border: 1px solid $another-gray;
+    border-left: none;
+    border-right: none;
+  }
+}

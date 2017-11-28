@@ -1,0 +1,3 @@
+export const GET_CHAT_MESSAGE = 'GET_CHAT_MESSAGE';
+export const GET_ACCOUNTS = 'GET_ACCOUNTS';
+export const GET_DEPOSITS = 'GET_DEPOSITS';
