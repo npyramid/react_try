@@ -30,7 +30,7 @@ const Sidebar = () => {
     <Router>
       <div className="sidebar">
         <div className="button-group button-group--centered">
-          <NavLink exact to="/accounts" className="button-group__item" activeClassName="button-group__item--active">
+          <NavLink to="/accounts" className="button-group__item" activeClassName="button-group__item--active">
             Счета
           </NavLink>
 
